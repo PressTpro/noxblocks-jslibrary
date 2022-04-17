@@ -1,0 +1,11 @@
+{
+  "noxkey": noxrequest:byidfunction
+  "noxuser": site:requestplayer("playerid""player")
+"noxcredential":{
+"noxuser":getkey("keyid""apiid""keyval")
+"noxuser":loadgamebyid(requested,key("keyval"),user("noxuser"),getclient("noxclientversion"),load("sendval"))
+
+}
+"noxclient":opengame("sendval")
+
+}
